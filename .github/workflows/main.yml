@@ -12,3 +12,9 @@ jobs:
     steps:
       - name: print hello world from github Actions 
         run : echo " Hello world from git hub actions " 
+
+      - name: check out branches 
+        uses: actions/checkout@v6.0.2
+
+      - name: all files
+        run: ls -la 
