@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: print hello world from github Actions 
-      run: echo " Hello world from git hub actions " 
+        run : echo " Hello world from git hub actions " 
