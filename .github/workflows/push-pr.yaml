@@ -1,0 +1,22 @@
+# on:
+#   push:
+#     branches:
+#       - main
+#       - "release/**"
+#     paths:
+#       - "src/**"
+#     pull_request:
+#       branches:
+#         - main 
+#         - "release/**"
+#       paths:
+#         - "src/**"
+# jobs:
+# runs-on: ubuntu-latest
+# steps:
+# - name : check Out my code
+#   uses: actions/checkout@v6.0.2
+# - name : print hello world from github Actions
+#   run : echo " Hello world from git hub actions "
+# - name : install nodejs 
+#   run : npm install 
