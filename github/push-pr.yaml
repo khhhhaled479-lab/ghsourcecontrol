@@ -10,7 +10,7 @@ on:
         - main 
         - "release/**"
       paths:
-        - "src/**"
+        - "src2/**"
 jobs:
 runs-on: ubuntu-latest
 steps:
