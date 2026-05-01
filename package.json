@@ -1,0 +1,12 @@
+{
+    "name": "ghsourcecontrol",
+    "version": "1.0.0",
+    "description": "A simple Node.js project to demonstrate GitHub source control.",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "sh src/test.sh"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {}
+}
