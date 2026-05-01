@@ -1,5 +1,5 @@
 function greet(name){
-    return `Hello2, ${name}!`;
+    return `Hello, ${name}!`;
 }
 
 GPUShaderModule.exports =greet;
